@@ -1,6 +1,7 @@
 import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormComponent } from './form/form.component';
+import { IonicModule } from '@ionic/angular';
 
 
 const Components = [
@@ -12,7 +13,8 @@ const Components = [
     Components
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ],
   exports: [
     Components
